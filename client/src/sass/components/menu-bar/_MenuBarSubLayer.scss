@@ -1,0 +1,44 @@
+.menu-bar-sub-layer{
+  padding:12px;
+  border-bottom: 1px solid #c1c1c1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  &:first-child{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  &:last-child{
+    border-bottom:none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  &:hover{
+    background-color: #d9dad9;
+  }
+  .layer-left{
+    display: flex;
+    align-items: center;
+    min-height: 21px;
+    .layer-indicator{
+      width:15px;
+      height:15px;
+      border-radius: 33px;
+      margin-right: 6px;
+    }
+    .icon{
+      width:18px;
+      height:18px;
+      margin-right: 6px;
+    }
+  }
+  .layer-right{
+    display: flex;
+    align-items: center;
+    .icon{
+      width:21px;
+      height: 21px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.menu-bar-sub-item{
+  display: flex;
+  justify-content: space-between;
+  padding:12px 12px;
+  cursor: pointer;
+  //margin:0 6px;
+  border-bottom: 1px solid #c1c1c1;
+  &:first-child{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  &:last-child{
+    border-bottom:none;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  &:hover{
+    background-color: #d9dad9;
+  }
+  .icon{
+    color: #252319;
+  }
+}

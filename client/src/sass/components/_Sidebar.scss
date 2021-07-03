@@ -1,0 +1,24 @@
+.sidebar-wrapper{
+  position: absolute;
+  right:12px;
+  top:12px;
+  height:auto;
+  background-color: #fff;
+  border: 1px solid #c1c1c1;
+  border-radius: 6px;
+  padding-bottom: 12px;
+  .sidebar-header{
+    height:47px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid #c1c1c1;
+    .icon-wrapper{
+      padding:6px;
+      .icon{
+        width: 27px;
+        height: 27px;
+      }
+    }
+  }
+}

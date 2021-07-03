@@ -1,0 +1,48 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-animation: autofill 0s forwards;
+  animation: autofill 0s forwards;
+  -webkit-text-fill-color: #f7f7f7;
+}
+
+@keyframes autofill {
+  100% {
+    background: transparent;
+    color: inherit;
+  }
+}
+
+@-webkit-keyframes autofill {
+  100% {
+    background: transparent;
+    color: inherit;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height:3px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0); 
+}
+::-webkit-scrollbar-track-piece{
+  background-color: rgba(0,0,0,0);   
+}
+::-webkit-scrollbar-thumb {
+  background:$colour-accent;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-corner {
+  display: none;  
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

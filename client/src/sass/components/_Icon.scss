@@ -1,0 +1,11 @@
+@import '../core/colours';
+
+.icon-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .icon{
+    color:$icon-black;
+  }
+}

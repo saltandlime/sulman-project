@@ -1,0 +1,30 @@
+.footer-wrapper{
+  position: absolute;
+  bottom:12px;
+  left:12px;
+  width:209px;
+  height:47px;
+  background-color: #fff;
+  border-radius: 6px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  .footer-logo-wrapper{
+    padding:12px;
+    width:56%;
+    img{
+      max-width: 100%;
+    }
+  }
+  .footer-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:47px;
+    height:47px;
+    .icon{
+      width:27px;
+      height:27px;
+    }
+  }
+}

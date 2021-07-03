@@ -1,0 +1,41 @@
+@import '../../core/colours';
+
+.pin-data-wrapper{
+  .pin-data-image{
+    img{
+      max-width: 100%;
+    }
+  }
+  .pin-data-header{
+    padding:6px;
+    div{
+      padding:3px 0;
+    }
+    .pin-data-name{
+      font-size: 18px;
+    }
+    .pin-data-date{
+      font-size: 15px;
+    }
+  }
+  .pin-data-actions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:18px 0;
+    border-top:1px solid $seperator-grey;
+    border-bottom:1px solid $seperator-grey;
+    .pin-data-action{
+      .icon{
+        width:27px;
+        height:27px;
+      }
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+  .pin-data-desc{
+    padding:12px 6px;
+  }
+}

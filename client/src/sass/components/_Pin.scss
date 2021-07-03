@@ -1,0 +1,26 @@
+.map-pin{
+  font-family: 'Ariel', sans-serif;
+  cursor: pointer;
+  svg{
+    width:33px;
+    height:50px;
+  }
+  &:hover{
+    .pin-name{
+      color: #62b5bd;
+    }
+  }
+  .pin-name{
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+    width: 160px;
+    color:#ffffff;
+    text-shadow: 1px 1px #000000;
+    //-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    //-webkit-text-stroke-width: 1px;
+    //-webkit-text-stroke-color: black;
+    left: 36px;
+    top: 0px;
+  }
+}
